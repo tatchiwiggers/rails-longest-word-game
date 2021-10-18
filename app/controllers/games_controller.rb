@@ -1,7 +1,7 @@
 require "open-uri"
 
 class GamesController < ApplicationController
-  VOWELS = %w(A E I O U Y)
+  VOWELS = %w(A E I O U Y) # comment to push
 
   def new
     @letters = Array.new(5) { VOWELS.sample }
